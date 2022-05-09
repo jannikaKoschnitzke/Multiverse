@@ -127,4 +127,6 @@ inside(multiverse, {
 
 multiverse = mverse::execute_multiverse(multiverse) 
 
-```
+
+#save to rda file
+save(multiverse, file = "MV_computation/MultiVerse.rda")
